@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/f1_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="280px"
+            android:layout_height="280px"
+            android:src="@drawable/profile"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azarya Divino"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:padding="6dp"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Identitas Diri"
+        android:textSize="20dp"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_hubungi"
+        android:layout_below="@id/f1_header"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="-5dp"
+        android:text="      Jenis Kelamin		                  "
+        android:textColor="#050505"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="180dp"
+        android:text=":"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="190dp"
+        android:text="-"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="      Umur                                    "
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="180dp"
+        android:text=":"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="190dp"
+        android:text="-"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="      Kewarganegaraan		          "
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="180dp"
+        android:text=":"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="190dp"
+        android:text="-"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="97dp"
+        android:text="      Agama	                                "
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="97dp"
+        android:layout_marginLeft="180dp"
+        android:text=":"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="97dp"
+        android:layout_marginLeft="190dp"
+        android:text="-"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
+        android:text="      Status				                              "
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
+        android:layout_marginLeft="180dp"
+        android:text=":"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
+        android:layout_marginLeft="190dp"
+        android:text="-"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="      Tinggi, Berat badan         "
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="180dp"
+        android:text=":"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="190dp"
+        android:text="-"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:text="      Kesehatan			                       "
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:layout_marginLeft="180dp"
+        android:text=":"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:layout_marginLeft="190dp"
+        android:text="-"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="186dp"
+        android:text="      Alamat Lengkap		             "
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="186dp"
+        android:layout_marginLeft="180dp"
+        android:text=":"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="186dp"
+        android:layout_marginLeft="190dp"
+        android:text="-"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="18dp"
+        android:text="Website"
+        android:textSize="15dp"
+        android:textColor="#050505"
+        android:layout_below="@id/f1_header"
+        android:layout_above="@id/btn_hubungi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_hubungi"
+        android:layout_below="@id/f1_header"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="278dp"
+        android:autoLink="web"
+        android:text="https://azardino.rf.gd"
+        android:textColor="#03A9F4"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_hubungi"
+        android:layout_below="@id/f1_header"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="298dp"
+        android:autoLink="web"
+        android:text="https://azardino.websites.co.in"
+        android:textColor="#03A9F4"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn_hubungi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HUBUNGI SAYA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#3FB553"
+        android:clickable="true"
+        android:height="65dp"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
